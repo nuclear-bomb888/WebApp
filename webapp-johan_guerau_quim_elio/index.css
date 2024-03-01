@@ -21,15 +21,35 @@ body {
     color: white;
     background-color: #950e17; 
 }
-.seccio {
-    flex: 1;
-    display: none;
-}
-#seccio_1, #seccio_2, #seccio_3, #seccio_4 {
+#seccio_0 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 4vmax;
+}
+#credencials {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 3vmax;
+    margin: 5vmin;
+}
+#credencials div {
+    margin-bottom: 1vmin;
+}
+#credencials input {
+    max-width: 20vmax;
+    font-size: 3vmax;
+}
+#botons_sessio {
+    display: flex;
+    align-items: center;
+}
+#botons_sessio button {
+    font-size: 3vmax;
+    padding: 2vmin;
+    margin: 1vmin;
 }
 #menu {
     height: 8vmax;
